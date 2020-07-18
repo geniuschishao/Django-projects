@@ -1,4 +1,4 @@
-技术栈: python, django, mysql, redis, celery, nginx, haystack, whoosh, jieba, itsdangerous,
+技术栈: python, django, mysql, redis, celery, nginx, haystack, whoosh, jieba, itsdangerous,fastdfs
 
 1、天天项目是生鲜类产品 B2C PC端网站，包括四大模块
 
