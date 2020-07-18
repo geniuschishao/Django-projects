@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	
+
+	<title>天天生鲜-首页</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+	
+	
+	<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/static/js/slide.js"></script>
+
+</head>
+<body>
+
+
+    <div class="header_con">
+		<div class="header">
+			<div class="welcome fl">欢迎来到天天生鲜!</div>
+			<div class="fr">
+				<div class="login_btn fl">
+					<a href="/user/login">登录</a>
+					<span>|</span>
+					<a href="/user/register">注册</a>
+				</div>
+				<div class="user_link fl">
+					<span>|</span>
+					<a href="/user/">用户中心</a>
+					<span>|</span>
+					<a href="/cart/">我的购物车</a>
+					<span>|</span>
+					<a href="/user/order">我的订单</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="search_bar clearfix">
+		<a href="/index/" class="logo fl"><img src="/static/images/logo.png"></a>
+		<div class="search_con fl">
+			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
+			<input type="button" class="input_btn fr" name="" value="搜索">
+		</div>
+		<div class="guest_cart fr">
+			<a href="#" class="cart_name fl">我的购物车</a>
+			<div class="goods_count fl" id="show_count"></div>
+		</div>
+	</div>
+
+
+
+
+	<div class="navbar_con">
+		<div class="navbar">
+			<h1 class="fl">全部商品分类</h1>
+			<ul class="navlist fl">
+				<li><a href="">首页</a></li>
+				<li class="interval">|</li>
+				<li><a href="">手机生鲜</a></li>
+				<li class="interval">|</li>
+				<li><a href="">抽奖</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="center_con clearfix">
+		<ul class="subnav fl">
+            <!-- 商品种类 -->
+			
+			<!-- forloop.counter代表从1开始往后数 -->
+			    <li><a href="#model01" class="fruit">新鲜水果</a></li>
+            
+			<!-- forloop.counter代表从1开始往后数 -->
+			    <li><a href="#model02" class="seafood">海鲜水产</a></li>
+            
+			<!-- forloop.counter代表从1开始往后数 -->
+			    <li><a href="#model03" class="meat">猪牛羊肉</a></li>
+            
+			<!-- forloop.counter代表从1开始往后数 -->
+			    <li><a href="#model04" class="egg">禽类蛋白</a></li>
+            
+			<!-- forloop.counter代表从1开始往后数 -->
+			    <li><a href="#model05" class="vegetables">新鲜蔬菜</a></li>
+            
+			<!-- forloop.counter代表从1开始往后数 -->
+			    <li><a href="#model06" class="ice">速冻食品</a></li>
+            
+		</ul>
+		<div class="slide fl">
+			<ul class="slide_pics">
+				<!-- 首页轮播商品 -->
+				
+				    <li><a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H2vSAIjiVAACpB0EHccA3989555" alt="幻灯片"></a></li>
+                
+				    <li><a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H24iAMJOWAAC3B4az5sw9416893" alt="幻灯片"></a></li>
+                
+				    <li><a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H3ByAJc2HAAETwbjKTS02405543" alt="幻灯片"></a></li>
+                
+				    <li><a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H3KmAa-hrAAD0anhtbdE3899470" alt="幻灯片"></a></li>
+                
+			</ul>
+			<div class="prev"></div>
+			<div class="next"></div>
+			<ul class="points"></ul>
+		</div>
+		<div class="adv fl">
+			<!-- 主页促销活动 -->
+			
+			    <a href="#" style="height: 135px"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8HHD2AZ22BAAA9891gryg3467845"></a>
+            
+			    <a href="#" style="height: 135px"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8HHAKAUprmAAA2pBv_sO02347748"></a>
+            
+		</div>
+	</div>
+
+	<!-- 商品种类 -->
+	
+	<div class="list_model">
+		<div class="list_title clearfix">
+			<!-- 1 -->
+			<h3 class="fl" id="model01">新鲜水果</h3>
+			<div class="subtitle fl">
+				<span>|</span>
+				<!-- 首页分类商品的文字展示信息 -->
+				
+				    <a href="#">柚桃</a>
+				
+			</div>
+			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
+		</div>
+
+		<div class="goods_con clearfix">
+			<div class="goods_banner fl"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8FwfmAVifuAAAmv3ZmXCQ2862900"></div>
+			<ul class="goods_list fl">
+				<!-- 首页分类商品的图片展示信息 -->
+				
+				<li>
+					<h4><a href="#">海南草莓</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H3pSAKDDdAAAljIO_yW05797164"></a>
+					<div class="prize">¥ 20.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">泰国柠檬</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H4HiAPaDsAAAgnZq1mZQ8851638"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">新疆葡萄</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H4PuAWCp7AAAjjvE5EB84230983"></a>
+					<div class="prize">¥ 15.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">黄桃</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H4bWAauvUAAAcLbNqM9M0440266"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="list_model">
+		<div class="list_title clearfix">
+			<!-- 2 -->
+			<h3 class="fl" id="model02">海鲜水产</h3>
+			<div class="subtitle fl">
+				<span>|</span>
+				<!-- 首页分类商品的文字展示信息 -->
+				
+				    <a href="#">泰国蟹棒</a>
+				
+			</div>
+			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
+		</div>
+
+		<div class="goods_con clearfix">
+			<div class="goods_banner fl"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8FwyuAQ4fdAABHr5DnSRY9015006"></div>
+			<ul class="goods_list fl">
+				<!-- 首页分类商品的图片展示信息 -->
+				
+				<li>
+					<h4><a href="#">泰国基围虾</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H45iAbTjqAAAk0La-FfM1108196"></a>
+					<div class="prize">¥ 20.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">泰国河蚌</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H5AOAfEcUAAAk8QAVQvs9853225"></a>
+					<div class="prize">¥ 25.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">海南带鱼</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H5H-AHh7gAAAkaK_3uqc1507641"></a>
+					<div class="prize">¥ 14.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">泰国帝王虾</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H5L2ATePIAAA5OafpZ8w7828738"></a>
+					<div class="prize">¥ 50.00</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="list_model">
+		<div class="list_title clearfix">
+			<!-- 3 -->
+			<h3 class="fl" id="model03">猪牛羊肉</h3>
+			<div class="subtitle fl">
+				<span>|</span>
+				<!-- 首页分类商品的文字展示信息 -->
+				
+				    <a href="#">智利原装鸡胸肉</a>
+				
+			</div>
+			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
+		</div>
+
+		<div class="goods_con clearfix">
+			<div class="goods_banner fl"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8Fw1aAEAIRAAAy1VHnVa42678746"></div>
+			<ul class="goods_list fl">
+				<!-- 首页分类商品的图片展示信息 -->
+				
+				<li>
+					<h4><a href="#">黑香猪五花肉</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H612AR6hVAAEVpWRUOkQ1699358"></a>
+					<div class="prize">¥ 25.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">牛肩肉</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H66mAeRRaAAEExMzu9TI5158300"></a>
+					<div class="prize">¥ 30.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">澳洲牛排</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H7L-ABnRjAACwa4j5U-M3048979"></a>
+					<div class="prize">¥ 50.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">妖精肉</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H7XKAedQeAAB6NAA364o1778842"></a>
+					<div class="prize">¥ 30.00</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="list_model">
+		<div class="list_title clearfix">
+			<!-- 4 -->
+			<h3 class="fl" id="model04">禽类蛋白</h3>
+			<div class="subtitle fl">
+				<span>|</span>
+				<!-- 首页分类商品的文字展示信息 -->
+				
+				    <a href="#">农家土鸡蛋</a>
+				
+			</div>
+			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
+		</div>
+
+		<div class="goods_con clearfix">
+			<div class="goods_banner fl"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8Fw46AIUCVAAAqR8GYqzc8155445"></div>
+			<ul class="goods_list fl">
+				<!-- 首页分类商品的图片展示信息 -->
+				
+				<li>
+					<h4><a href="#">盒装鸡蛋</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H7hKAJw2HAADUKdl9ke06609601"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">农家散养鹅蛋</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8JP5WAVyaYAAAdJnO9pBI6868322"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">咸鸭蛋</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H7xCATghnAAFC_6z4ikw4385345"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">农家鹌鹑蛋</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H716AWYk1AAGZ6CWHwr46526879"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="list_model">
+		<div class="list_title clearfix">
+			<!-- 5 -->
+			<h3 class="fl" id="model05">新鲜蔬菜</h3>
+			<div class="subtitle fl">
+				<span>|</span>
+				<!-- 首页分类商品的文字展示信息 -->
+				
+				    <a href="#">南京香菜</a>
+				
+			</div>
+			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
+		</div>
+
+		<div class="goods_con clearfix">
+			<div class="goods_banner fl"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8Fw_yAODvEAAA-0fsIWso7129629"></div>
+			<ul class="goods_list fl">
+				<!-- 首页分类商品的图片展示信息 -->
+				
+				<li>
+					<h4><a href="#">正宗东北大白菜</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H8i6AZnesAADWHQMZcMk2037821"></a>
+					<div class="prize">¥ 5.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">溧阳水芹</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H8nOABmBwAACIr6t7nRI8551411"></a>
+					<div class="prize">¥ 8.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">粉皮冬瓜</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H8qyAJ2riAAENHihfRBU0372328"></a>
+					<div class="prize">¥ 6.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">溧阳香菜</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H8tuAIG5DAACNpLrBpAw6619402"></a>
+					<div class="prize">¥ 2.00</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="list_model">
+		<div class="list_title clearfix">
+			<!-- 6 -->
+			<h3 class="fl" id="model06">速冻食品</h3>
+			<div class="subtitle fl">
+				<span>|</span>
+				<!-- 首页分类商品的文字展示信息 -->
+				
+				    <a href="#">撒尿牛丸</a>
+				
+			</div>
+			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
+		</div>
+
+		<div class="goods_con clearfix">
+			<div class="goods_banner fl"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8FxBiAf-s1AAA3sWXrUtc9676551"></div>
+			<ul class="goods_list fl">
+				<!-- 首页分类商品的图片展示信息 -->
+				
+				<li>
+					<h4><a href="#">肉丸</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H8-mANoByAADZQrk0MNM1509305"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">手拍虾丸</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H9BSAW2SzAABICVAPa7k1070169"></a>
+					<div class="prize">¥ 20.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">三鲜水饺</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H9IuAf4cDAACMoEDn4gA1606501"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+				<li>
+					<h4><a href="#">海南蟹棒</a></h4>
+					<a href="#"><img src="http://192.168.158.128:8888/group1/M00/00/00/wKiegF8H9NCAW7nDAABxy6sSvLs7918849"></a>
+					<div class="prize">¥ 10.00</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+
+
+
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    京ICP备*******8号</p>
+	</div>
+
+    
+	
+    
+    
+	
+</body>
+</html>
